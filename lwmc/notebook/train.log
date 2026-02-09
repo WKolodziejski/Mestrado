@@ -1,0 +1,286 @@
+LOADING DATASETS
+FINDING NAT
+['xd__left_mbmi__bsize', 'xd__left_mbmi__partition', 'xd__left_mbmi__mode', 'xd__left_mbmi__uv_mode', 'xd__left_mbmi__motion_mode', 'xd__left_mbmi__interintra_mode', 'xd__left_mbmi__interp_filters__as_filters__y_filter', 'xd__left_mbmi__interp_filters__as_filters__x_filter', 'xd__above_mbmi__bsize', 'xd__above_mbmi__partition', 'xd__above_mbmi__mode', 'xd__above_mbmi__uv_mode', 'xd__above_mbmi__motion_mode', 'xd__above_mbmi__interintra_mode', 'xd__above_mbmi__interp_filters__as_filters__y_filter', 'xd__above_mbmi__interp_filters__as_filters__x_filter']
+SEARCHING NUMBER OF FEATURES
+SELECTING 148 FEATURES
+FEATURES: ['args__best_pred_sse', 'args__ref_frame_cost', 'args__single_comp_cost', 'best_est_rd', 'cpi__common__current_frame__refresh_frame_flags', 'cpi__gf_frame_index', 'cpi__ppi__filter_level__0', 'cpi__ppi__filter_level__1', 'cpi__ppi__p_rc__avg_q', 'cpi__ppi__p_rc__buffer_level', 'cpi__ppi__p_rc__gfu_boost', 'cpi__ppi__p_rc__last_boosted_qindex', 'cpi__ppi__p_rc__last_kf_qindex', 'cpi__ppi__p_rc__rolling_actual_bits', 'cpi__ppi__p_rc__rolling_target_bits', 'cpi__ppi__p_rc__tot_q', 'cpi__ppi__tf_info__frame_diff__0__sse', 'cpi__ppi__tf_info__frame_diff__1__sse', 'cpi__ppi__tf_info__frame_diff__1__sum', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__mc_dep_dist', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__mc_dep_rate', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__recrf_dist', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__recrf_rate', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__recrf_sse', 'cpi__ppi__tpl_sb_rdmult_scaling_factors', 'cpi__ppi__twopass__bits_left', 'cpi__ppi__twopass__firstpass_info__total_stats__MVc', 'cpi__ppi__twopass__firstpass_info__total_stats__MVr', 'cpi__ppi__twopass__firstpass_info__total_stats__MVrv', 'cpi__ppi__twopass__firstpass_info__total_stats__log_intra_error', 'cpi__ppi__twopass__firstpass_info__total_stats__new_mv_count', 'cpi__ppi__twopass__firstpass_info__total_stats__pcnt_inter', 'cpi__ppi__twopass__firstpass_info__total_stats__pcnt_motion', 'cpi__ppi__twopass__firstpass_info__total_stats__pcnt_neutral', 'cpi__ppi__twopass__firstpass_info__total_stats__pcnt_second_ref', 'cpi__ppi__twopass__firstpass_info__total_stats__sr_coded_error', 'cpi__ppi__twopass__firstpass_info__total_stats__weight', 'cpi__ppi__twopass__kf_group_bits', 'cpi__ppi__twopass__last_kfgroup_zeromotion_pct', 'cpi__ppi__twopass__rolling_arf_group_target_bits', 'cpi__ppi__twopass__section_intra_rating', 'cpi__rd__r0', 'cpi__rd__rdmult', 'cpi__ref_frame_flags', 'cpi__tf_ctx__mb_cols', 'cpi__tf_ctx__noise_levels__0', 'cpi__tf_ctx__noise_levels__1', 'cpi__tf_ctx__noise_levels__2', 'cpi__tpl_rdmult_scaling_factors', 'cpi__twopass_frame__mb_av_energy', 'cpi__twopass_frame__stats_in__MVc', 'cpi__twopass_frame__stats_in__MVcv', 'cpi__twopass_frame__stats_in__MVr', 'cpi__twopass_frame__stats_in__MVrv', 'cpi__twopass_frame__stats_in__coded_error', 'cpi__twopass_frame__stats_in__cor_coeff', 'cpi__twopass_frame__stats_in__duration', 'cpi__twopass_frame__stats_in__frame_avg_wavelet_energy', 'cpi__twopass_frame__stats_in__inactive_zone_rows', 'cpi__twopass_frame__stats_in__intra_error', 'cpi__twopass_frame__stats_in__intra_skip_pct', 'cpi__twopass_frame__stats_in__log_coded_error', 'cpi__twopass_frame__stats_in__log_intra_error', 'cpi__twopass_frame__stats_in__mv_in_out_count', 'cpi__twopass_frame__stats_in__mvc_abs', 'cpi__twopass_frame__stats_in__mvr_abs', 'cpi__twopass_frame__stats_in__new_mv_count', 'cpi__twopass_frame__stats_in__noise_var', 'cpi__twopass_frame__stats_in__pcnt_inter', 'cpi__twopass_frame__stats_in__pcnt_motion', 'cpi__twopass_frame__stats_in__pcnt_neutral', 'cpi__twopass_frame__stats_in__pcnt_second_ref', 'cpi__twopass_frame__stats_in__raw_error_stdev', 'cpi__twopass_frame__stats_in__weight', 'interintra_allowed', 'mbmi__interintra_mode', 'mbmi__interintra_wedge_index', 'mbmi__mode', 'mbmi__mv__0__as_mv__row', 'mbmi__num_proj_ref', 'mbmi__overlappable_neighbors', 'mbmi__ref_mv_idx', 'mbmi__skip_txfm', 'mbmi__tx_size', 'rate2_nocoeff', 'rate_mv', 'rd_stats__dist', 'rd_stats__rate', 'rd_stats__rdcost', 'rd_stats__skip_txfm', 'rd_stats__sse', 'rd_stats__zero_rate', 'rd_stats_uv__dist', 'rd_stats_uv__skip_txfm', 'rd_stats_uv__sse', 'rd_stats_y__rate', 'rd_stats_y__rdcost', 'rd_stats_y__skip_txfm', 'ref_best_rd', 'tile_data__tile_info__mi_row_end', 'x__cnt_zeromv', 'x__delta_qindex', 'x__errorperbit', 'x__palette_pixels', 'x__plane__0__coeff', 'x__plane__0__dequant_QTX', 'x__plane__0__dqcoeff', 'x__plane__0__eobs', 'x__plane__0__qcoeff', 'x__plane__0__round_fp_QTX', 'x__plane__0__zbin_QTX', 'x__qindex', 'x__rb', 'x__rdmult', 'x__rdmult_cur_qindex', 'x__sadperbit', 'x__source_variance', 'xd__above_mbmi__mv__0__as_mv__row', 'xd__above_mbmi__ref_mv_idx', 'xd__current_base_qindex', 'xd__height', 'xd__is_first_horizontal_rect', 'xd__is_last_vertical_rect', 'xd__left_mbmi__cfl_alpha_signs', 'xd__left_mbmi__comp_group_idx', 'xd__left_mbmi__compound_idx', 'xd__left_mbmi__mv__0__as_mv__row', 'xd__left_mbmi__mv__1__as_mv__col', 'xd__left_mbmi__ref_mv_idx', 'xd__left_mbmi__use_intrabc', 'xd__left_mbmi__use_wedge_interintra', 'xd__mb_to_bottom_edge', 'xd__mb_to_left_edge', 'xd__mb_to_right_edge', 'xd__mb_to_top_edge', 'xd__mi_col', 'xd__mi_row', 'xd__mi_stride', 'xd__plane__0__height', 'xd__plane__0__width', 'xd__plane__1__height', 'xd__plane__2__height', 'xd__plane__2__width', 'xd__tile__mi_col_end', 'xd__tile__mi_row_end', 'xd__tx_type_map_stride', 'xd__up_available', 'xd__width']
+CROSS VALIDATING
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+Learning rate set to 0.423498
+0:	learn: 0.8268776	test: 0.8245747	best: 0.8245747 (0)	total: 94.5ms	remaining: 9.36s
+99:	learn: 0.8753945	test: 0.8709835	best: 0.8710430 (97)	total: 7.99s	remaining: 0us
+
+bestTest = 0.871043003
+bestIteration = 97
+
+Shrink model to first 98 iterations.
+{'learn': {'Recall': 0.8585896581733329, 'Logloss': 0.2959651724182229, 'F1': 0.8753944909401153, 'Precision': 0.8928702847311315}, 'validation': {'Recall': 0.8545744341727766, 'Logloss': 0.30382426684347646, 'F1': 0.8710430029959773, 'AUC': 0.9424841761229731, 'Precision': 0.8882276534831938}}
+                      Feature Id  Importances
+0               rd_stats__rdcost    25.798682
+1                    best_est_rd     4.955562
+2                 rd_stats__dist     4.436997
+3                        rate_mv     3.378928
+4                     mbmi__mode     2.999822
+..                           ...          ...
+143  xd__left_mbmi__compound_idx     0.000000
+144   xd__left_mbmi__use_intrabc     0.000000
+145                xd__mi_stride     0.000000
+146         xd__tile__mi_col_end     0.000000
+147             xd__up_available     0.000000
+
+[148 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.86      0.89      0.88     78350
+        True       0.89      0.85      0.87     78425
+
+    accuracy                           0.87    156775
+   macro avg       0.87      0.87      0.87    156775
+weighted avg       0.87      0.87      0.87    156775
+
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+Learning rate set to 0.423498
+0:	learn: 0.8248787	test: 0.8256038	best: 0.8256038 (0)	total: 91.4ms	remaining: 9.04s
+99:	learn: 0.8759094	test: 0.8719649	best: 0.8719722 (97)	total: 7.78s	remaining: 0us
+
+bestTest = 0.8719721837
+bestIteration = 97
+
+Shrink model to first 98 iterations.
+{'learn': {'Recall': 0.8593515398617136, 'Logloss': 0.2956741375606355, 'F1': 0.8759093729997043, 'Precision': 0.893117808618559}, 'validation': {'Recall': 0.8570608861970035, 'Logloss': 0.3035478497742897, 'F1': 0.8719721836604953, 'AUC': 0.9424964969437589, 'Precision': 0.8874935625718021}}
+                              Feature Id  Importances
+0                       rd_stats__rdcost    26.888461
+1                            best_est_rd     4.818452
+2                         rd_stats__dist     3.610987
+3                                rate_mv     3.411625
+4                             mbmi__mode     3.348678
+..                                   ...          ...
+143              xd__current_base_qindex     0.000000
+144           xd__left_mbmi__use_intrabc     0.000000
+145  xd__left_mbmi__use_wedge_interintra     0.000000
+146                 xd__tile__mi_col_end     0.000000
+147                     xd__up_available     0.000000
+
+[148 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.86      0.89      0.88     78350
+        True       0.89      0.86      0.87     78425
+
+    accuracy                           0.87    156775
+   macro avg       0.87      0.87      0.87    156775
+weighted avg       0.87      0.87      0.87    156775
+
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+Learning rate set to 0.423498
+0:	learn: 0.8265654	test: 0.8272320	best: 0.8272320 (0)	total: 99.7ms	remaining: 9.87s
+99:	learn: 0.8754055	test: 0.8717835	best: 0.8717835 (99)	total: 7.8s	remaining: 0us
+
+bestTest = 0.8717835335
+bestIteration = 99
+
+{'learn': {'Recall': 0.8589535158018221, 'Logloss': 0.2961132129865733, 'F1': 0.8754054954069573, 'Precision': 0.8925000082806958}, 'validation': {'Recall': 0.8549168621850454, 'Logloss': 0.30439292095289694, 'F1': 0.8717835335123783, 'AUC': 0.942093662630952, 'Precision': 0.8895361953420476}}
+                              Feature Id  Importances
+0                       rd_stats__rdcost    24.390515
+1                            best_est_rd     5.459587
+2                         rd_stats__dist     4.257961
+3                             mbmi__mode     3.166823
+4                                rate_mv     2.980202
+..                                   ...          ...
+143          xd__left_mbmi__compound_idx     0.000000
+144           xd__left_mbmi__use_intrabc     0.000000
+145  xd__left_mbmi__use_wedge_interintra     0.000000
+146                        xd__mi_stride     0.000000
+147                 xd__tile__mi_col_end     0.000000
+
+[148 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.86      0.89      0.88     78351
+        True       0.89      0.85      0.87     78424
+
+    accuracy                           0.87    156775
+   macro avg       0.87      0.87      0.87    156775
+weighted avg       0.87      0.87      0.87    156775
+
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+Learning rate set to 0.423498
+0:	learn: 0.8264829	test: 0.8252055	best: 0.8252055 (0)	total: 93.8ms	remaining: 9.29s
+99:	learn: 0.8750949	test: 0.8725587	best: 0.8726117 (98)	total: 7.89s	remaining: 0us
+
+bestTest = 0.872611672
+bestIteration = 98
+
+Shrink model to first 99 iterations.
+{'learn': {'Recall': 0.8581215053969105, 'Logloss': 0.29581449989992875, 'F1': 0.8750948836770819, 'Precision': 0.8927532675132408}, 'validation': {'Recall': 0.8557711924920942, 'Logloss': 0.302846760206725, 'F1': 0.8726116720083734, 'AUC': 0.9426426051901463, 'Precision': 0.8901284023982596}}
+                     Feature Id  Importances
+0              rd_stats__rdcost    25.219765
+1                   best_est_rd     5.525090
+2                rd_stats__dist     4.056775
+3                    mbmi__mode     3.606097
+4          x__rdmult_cur_qindex     3.407987
+..                          ...          ...
+143  xd__left_mbmi__use_intrabc     0.000000
+144               xd__mi_stride     0.000000
+145        xd__tile__mi_col_end     0.000000
+146        xd__tile__mi_row_end     0.000000
+147            xd__up_available     0.000000
+
+[148 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.86      0.89      0.88     78350
+        True       0.89      0.86      0.87     78424
+
+    accuracy                           0.88    156774
+   macro avg       0.88      0.88      0.87    156774
+weighted avg       0.88      0.88      0.87    156774
+
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+Learning rate set to 0.423498
+0:	learn: 0.8200076	test: 0.8212973	best: 0.8212973 (0)	total: 87.5ms	remaining: 8.66s
+99:	learn: 0.8758072	test: 0.8713718	best: 0.8713718 (99)	total: 7.93s	remaining: 0us
+
+bestTest = 0.8713717784
+bestIteration = 99
+
+{'learn': {'Recall': 0.8595081894050967, 'Logloss': 0.29553893083677546, 'F1': 0.8758071850841291, 'Precision': 0.8927362907337876}, 'validation': {'Recall': 0.8538330103029684, 'Logloss': 0.30526505635662793, 'F1': 0.8713717784385552, 'AUC': 0.9415923560120331, 'Precision': 0.8897150762191066}}
+                              Feature Id  Importances
+0                       rd_stats__rdcost    25.574317
+1                            best_est_rd     4.354803
+2                         rd_stats__dist     3.444106
+3                             mbmi__mode     3.428519
+4                              x__qindex     3.274742
+..                                   ...          ...
+143              xd__current_base_qindex     0.000000
+144           xd__left_mbmi__use_intrabc     0.000000
+145  xd__left_mbmi__use_wedge_interintra     0.000000
+146                        xd__mi_stride     0.000000
+147                     xd__up_available     0.000000
+
+[148 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.86      0.89      0.88     78350
+        True       0.89      0.85      0.87     78424
+
+    accuracy                           0.87    156774
+   macro avg       0.87      0.87      0.87    156774
+weighted avg       0.87      0.87      0.87    156774
+
+CV mean: 0.8718, CV std: 0.0005
+IMPORTANT FEATURES: {'rd_stats__dist', 'mbmi__num_proj_ref', 'x__source_variance', 'xd__plane__2__height', 'cpi__gf_frame_index', 'cpi__ppi__tpl_sb_rdmult_scaling_factors', 'rate2_nocoeff', 'cpi__common__current_frame__refresh_frame_flags', 'cpi__ppi__twopass__firstpass_info__total_stats__new_mv_count', 'xd__width', 'rd_stats__rdcost', 'rd_stats__sse', 'cpi__ppi__tf_info__frame_diff__1__sse', 'cpi__ppi__p_rc__avg_q', 'x__rdmult', 'x__sadperbit', 'ref_best_rd', 'cpi__ppi__twopass__firstpass_info__total_stats__MVrv', 'rate_mv', 'cpi__ppi__p_rc__rolling_actual_bits', 'rd_stats_y__rate', 'x__plane__0__eobs', 'best_est_rd', 'cpi__ppi__p_rc__last_boosted_qindex', 'mbmi__interintra_mode', 'cpi__rd__rdmult', 'args__best_pred_sse', 'cpi__ppi__twopass__rolling_arf_group_target_bits', 'rd_stats__skip_txfm', 'x__qindex', 'cpi__ppi__twopass__firstpass_info__total_stats__MVr', 'rd_stats__rate', 'mbmi__mode', 'mbmi__ref_mv_idx', 'x__rdmult_cur_qindex', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__recrf_sse', 'cpi__twopass_frame__stats_in__duration', 'x__errorperbit', 'mbmi__skip_txfm'}
+TRAINING FIRST MODEL
+Learning rate set to 0.447495
+0:	learn: 0.8280230	test: 0.8069987	best: 0.8069987 (0)	total: 101ms	remaining: 10s
+99:	learn: 0.8725528	test: 0.8439364	best: 0.8439364 (99)	total: 7.92s	remaining: 0us
+
+bestTest = 0.8439364197
+bestIteration = 99
+
+{'iterations': 100, 'depth': 7, 'loss_function': 'Logloss', 'random_seed': 42, 'verbose': 100, 'custom_metric': ['F1', 'Recall', 'Precision', 'AUC', 'Logloss'], 'eval_metric': 'F1'}
+                                           Feature Id  Importances
+0                                    rd_stats__rdcost    23.199817
+1                                         best_est_rd     6.089245
+2                                     cpi__rd__rdmult     4.878751
+3                                      rd_stats__dist     4.448416
+4                                          mbmi__mode     3.884007
+5                                      rd_stats__rate     3.443660
+6                                             rate_mv     3.370952
+7                                    rd_stats_y__rate     2.757510
+8   cpi__ppi__twopass__firstpass_info__total_stats...     2.742984
+9                                       rate2_nocoeff     2.544725
+10                                          xd__width     2.456408
+11                                 x__source_variance     2.399030
+12  cpi__ppi__twopass__firstpass_info__total_stats...     2.270380
+13              cpi__ppi__tf_info__frame_diff__1__sse     2.259382
+14                               xd__plane__2__height     2.242097
+15                                     x__errorperbit     2.230005
+16                cpi__ppi__p_rc__last_boosted_qindex     2.180111
+17                                cpi__gf_frame_index     2.137004
+18                                        ref_best_rd     2.132836
+19    cpi__common__current_frame__refresh_frame_flags     1.849071
+20                                  x__plane__0__eobs     1.745174
+21                                args__best_pred_sse     1.622190
+22                                 mbmi__num_proj_ref     1.595302
+23  cpi__ppi__twopass__firstpass_info__total_stats...     1.557541
+24                                   mbmi__ref_mv_idx     1.406564
+25  cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__...     1.318425
+26                                          x__qindex     1.289551
+27            cpi__ppi__tpl_sb_rdmult_scaling_factors     1.287425
+28                                    mbmi__skip_txfm     1.252322
+29                              mbmi__interintra_mode     1.163453
+30                                          x__rdmult     1.129429
+31                cpi__ppi__p_rc__rolling_actual_bits     1.129378
+32                               x__rdmult_cur_qindex     0.978740
+33                                rd_stats__skip_txfm     0.961657
+34   cpi__ppi__twopass__rolling_arf_group_target_bits     0.787521
+35                                      rd_stats__sse     0.422778
+36                              cpi__ppi__p_rc__avg_q     0.366047
+37             cpi__twopass_frame__stats_in__duration     0.320247
+38                                       x__sadperbit     0.149863
+              precision    recall  f1-score   support
+
+       False       0.83      0.87      0.85    133605
+        True       0.86      0.83      0.84    133605
+
+    accuracy                           0.85    267210
+   macro avg       0.85      0.85      0.85    267210
+weighted avg       0.85      0.85      0.85    267210
+
+DROPING UNUSED FEATURES
+IMPORTANT FEATURES: ['rd_stats__rdcost', 'best_est_rd', 'cpi__rd__rdmult', 'rd_stats__dist', 'mbmi__mode', 'rd_stats__rate', 'rate_mv', 'rd_stats_y__rate', 'cpi__ppi__twopass__firstpass_info__total_stats__MVrv', 'rate2_nocoeff', 'xd__width', 'x__source_variance', 'cpi__ppi__twopass__firstpass_info__total_stats__MVr', 'cpi__ppi__tf_info__frame_diff__1__sse', 'xd__plane__2__height', 'x__errorperbit', 'cpi__ppi__p_rc__last_boosted_qindex', 'cpi__gf_frame_index', 'ref_best_rd', 'cpi__common__current_frame__refresh_frame_flags', 'x__plane__0__eobs', 'args__best_pred_sse', 'mbmi__num_proj_ref', 'cpi__ppi__twopass__firstpass_info__total_stats__new_mv_count', 'mbmi__ref_mv_idx', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__recrf_sse', 'x__qindex', 'cpi__ppi__tpl_sb_rdmult_scaling_factors', 'mbmi__skip_txfm', 'mbmi__interintra_mode', 'x__rdmult', 'cpi__ppi__p_rc__rolling_actual_bits']
+TRAINING FINAL MODEL
+Learning rate set to 0.447495
+0:	learn: 0.8217989	test: 0.7979356	best: 0.7979356 (0)	total: 90.6ms	remaining: 8.97s
+99:	learn: 0.8722013	test: 0.8454377	best: 0.8478895 (59)	total: 7.47s	remaining: 0us
+
+bestTest = 0.8478894601
+bestIteration = 59
+
+Shrink model to first 60 iterations.
+MODEL TRAINED
+{'iterations': 100, 'depth': 7, 'loss_function': 'Logloss', 'random_seed': 42, 'verbose': 100, 'custom_metric': ['F1', 'Recall', 'Precision', 'AUC', 'Logloss'], 'eval_metric': 'F1'}
+                                           Feature Id  Importances
+0                                    rd_stats__rdcost    29.670849
+1                                      rd_stats__dist     4.393944
+2                                             rate_mv     4.025226
+3                                         best_est_rd     3.816062
+4                                          mbmi__mode     3.359883
+5                                           x__qindex     3.284437
+6                 cpi__ppi__p_rc__last_boosted_qindex     3.249880
+7                                      rd_stats__rate     3.161994
+8   cpi__ppi__twopass__firstpass_info__total_stats...     2.975508
+9                                           xd__width     2.950294
+10                                 x__source_variance     2.642981
+11                                   rd_stats_y__rate     2.570250
+12                                      rate2_nocoeff     2.465201
+13  cpi__ppi__twopass__firstpass_info__total_stats...     2.409990
+14  cpi__ppi__twopass__firstpass_info__total_stats...     2.355439
+15                                cpi__gf_frame_index     2.226174
+16                                          x__rdmult     2.203513
+17                                     x__errorperbit     2.055539
+18                                        ref_best_rd     2.041120
+19                               xd__plane__2__height     1.913495
+20              cpi__ppi__tf_info__frame_diff__1__sse     1.907625
+21    cpi__common__current_frame__refresh_frame_flags     1.861990
+22                cpi__ppi__p_rc__rolling_actual_bits     1.824540
+23                                    mbmi__skip_txfm     1.519943
+24                                args__best_pred_sse     1.391308
+25                                 mbmi__num_proj_ref     1.370912
+26            cpi__ppi__tpl_sb_rdmult_scaling_factors     1.364473
+27                              mbmi__interintra_mode     1.299539
+28                                  x__plane__0__eobs     1.271900
+29                                   mbmi__ref_mv_idx     1.161573
+30                                    cpi__rd__rdmult     0.848002
+31  cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__...     0.406418
+              precision    recall  f1-score   support
+
+       False       0.84      0.87      0.85    133605
+        True       0.86      0.83      0.85    133605
+
+    accuracy                           0.85    267210
+   macro avg       0.85      0.85      0.85    267210
+weighted avg       0.85      0.85      0.85    267210
+
+MODEL SAVED

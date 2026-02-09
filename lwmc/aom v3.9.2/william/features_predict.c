@@ -1,0 +1,76 @@
+#include "features_predict.h"
+
+int will_discard(
+    long long int rd_stats__rdcost,
+    long long int best_est_rd,
+    int cpi__rd__rdmult,
+    long long int rd_stats__dist,
+    char *mbmi__mode,
+    int rd_stats__rate,
+    int rate_mv,
+    int rd_stats_y__rate,
+    double cpi__ppi__twopass__firstpass_info__total_stats__MVrv,
+    int rate2_nocoeff,
+    int xd__width,
+    unsigned int x__source_variance,
+    double cpi__ppi__twopass__firstpass_info__total_stats__MVr,
+    long long cpi__ppi__tf_info__frame_diff__1__sse,
+    int xd__plane__2__height,
+    int x__errorperbit,
+    int cpi__ppi__p_rc__last_boosted_qindex,
+    unsigned char cpi__gf_frame_index,
+    long long int ref_best_rd,
+    int cpi__common__current_frame__refresh_frame_flags,
+    int x__plane__0__eobs,
+    unsigned int args__best_pred_sse,
+    int mbmi__num_proj_ref,
+    double cpi__ppi__twopass__firstpass_info__total_stats__new_mv_count,
+    int mbmi__ref_mv_idx,
+    long long cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__recrf_sse,
+    int x__qindex,
+    double cpi__ppi__tpl_sb_rdmult_scaling_factors,
+    int mbmi__skip_txfm,
+    char *mbmi__interintra_mode,
+    int x__rdmult,
+    int cpi__ppi__p_rc__rolling_actual_bits
+) {
+  float floatFeatures[] = {
+    rd_stats__rdcost,
+    best_est_rd,
+    cpi__rd__rdmult,
+    rd_stats__dist,
+    rd_stats__rate,
+    rate_mv,
+    rd_stats_y__rate,
+    cpi__ppi__twopass__firstpass_info__total_stats__MVrv,
+    rate2_nocoeff,
+    xd__width,
+    x__source_variance,
+    cpi__ppi__twopass__firstpass_info__total_stats__MVr,
+    cpi__ppi__tf_info__frame_diff__1__sse,
+    xd__plane__2__height,
+    x__errorperbit,
+    cpi__ppi__p_rc__last_boosted_qindex,
+    cpi__gf_frame_index,
+    ref_best_rd,
+    cpi__common__current_frame__refresh_frame_flags,
+    x__plane__0__eobs,
+    args__best_pred_sse,
+    mbmi__num_proj_ref,
+    cpi__ppi__twopass__firstpass_info__total_stats__new_mv_count,
+    mbmi__ref_mv_idx,
+    cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__recrf_sse,
+    x__qindex,
+    cpi__ppi__tpl_sb_rdmult_scaling_factors,
+    mbmi__skip_txfm,
+    x__rdmult,
+    cpi__ppi__p_rc__rolling_actual_bits
+  };
+
+  char *catFeatures[] = {
+    mbmi__mode,
+    mbmi__interintra_mode,
+  };
+
+  return ApplyCatboostModelWrapper(floatFeatures, 30, catFeatures, 2);
+}

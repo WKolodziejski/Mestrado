@@ -1,0 +1,223 @@
+LOADING DATASETS
+FINDING NAT
+['xd__left_mbmi__bsize', 'xd__left_mbmi__partition', 'xd__left_mbmi__mode', 'xd__left_mbmi__uv_mode', 'xd__left_mbmi__motion_mode', 'xd__left_mbmi__interintra_mode', 'xd__left_mbmi__interp_filters__as_filters__y_filter', 'xd__left_mbmi__interp_filters__as_filters__x_filter', 'xd__above_mbmi__bsize', 'xd__above_mbmi__partition', 'xd__above_mbmi__mode', 'xd__above_mbmi__uv_mode', 'xd__above_mbmi__motion_mode', 'xd__above_mbmi__interintra_mode', 'xd__above_mbmi__interp_filters__as_filters__y_filter', 'xd__above_mbmi__interp_filters__as_filters__x_filter']
+MUTUAL INFO
+26 CATEGORICAL FEATURES
+['bsize', 'cpi__common__features__tx_mode', 'cpi__twopass_frame__fr_content_type', 'mbmi__bsize', 'mbmi__interintra_mode', 'mbmi__interp_filters__as_filters__x_filter', 'mbmi__interp_filters__as_filters__y_filter', 'mbmi__mode', 'mbmi__partition', 'update_type', 'xd__above_mbmi__bsize', 'xd__above_mbmi__interintra_mode', 'xd__above_mbmi__interp_filters__as_filters__x_filter', 'xd__above_mbmi__interp_filters__as_filters__y_filter', 'xd__above_mbmi__mode', 'xd__above_mbmi__motion_mode', 'xd__above_mbmi__partition', 'xd__above_mbmi__uv_mode', 'xd__left_mbmi__bsize', 'xd__left_mbmi__interintra_mode', 'xd__left_mbmi__interp_filters__as_filters__x_filter', 'xd__left_mbmi__interp_filters__as_filters__y_filter', 'xd__left_mbmi__mode', 'xd__left_mbmi__motion_mode', 'xd__left_mbmi__partition', 'xd__left_mbmi__uv_mode']
+86 NUMERICAL FEATURES
+['args__best_pred_sse', 'args__ref_frame_cost', 'best_est_rd', 'cpi__all_one_sided_refs', 'cpi__common__current_frame__refresh_frame_flags', 'cpi__common__features__allow_high_precision_mv', 'cpi__common__frame_presentation_time', 'cpi__common__show_frame', 'cpi__framerate', 'cpi__gf_frame_index', 'cpi__ppi__internal_altref_allowed', 'cpi__ppi__p_rc__avg_q', 'cpi__ppi__p_rc__constrained_gf_group', 'cpi__ppi__p_rc__gfu_boost', 'cpi__ppi__p_rc__kf_boost', 'cpi__ppi__p_rc__num_regions', 'cpi__ppi__p_rc__rate_error_estimate', 'cpi__ppi__p_rc__rolling_target_bits', 'cpi__ppi__seq_params__num_bits_width', 'cpi__ppi__show_existing_alt_ref', 'cpi__ppi__tf_info__frame_diff__0__sum', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__mc_dep_dist', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__srcrf_dist', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__srcrf_sse', 'cpi__ppi__tpl_sb_rdmult_scaling_factors', 'cpi__ppi__twopass__firstpass_info__total_stats__log_intra_error', 'cpi__ppi__twopass__firstpass_info__total_stats__mv_in_out_count', 'cpi__ppi__twopass__firstpass_info__total_stats__mvr_abs', 'cpi__ppi__twopass__firstpass_info__total_stats__new_mv_count', 'cpi__ppi__twopass__last_kfgroup_zeromotion_pct', 'cpi__ppi__twopass__modified_error_max', 'cpi__ppi__twopass__rolling_arf_group_actual_bits', 'cpi__ppi__twopass__rolling_arf_group_target_bits', 'cpi__ref_frame_flags', 'cpi__tf_ctx__noise_levels__0', 'cpi__tf_ctx__noise_levels__1', 'cpi__tpl_rdmult_scaling_factors', 'cpi__twopass_frame__stats_in__MVc', 'cpi__twopass_frame__stats_in__MVr', 'cpi__twopass_frame__stats_in__cor_coeff', 'cpi__twopass_frame__stats_in__frame', 'cpi__twopass_frame__stats_in__intra_error', 'cpi__twopass_frame__stats_in__mv_in_out_count', 'cpi__twopass_frame__stats_in__mvc_abs', 'cpi__twopass_frame__stats_in__mvr_abs', 'cpi__twopass_frame__stats_in__noise_var', 'cpi__twopass_frame__stats_in__pcnt_neutral', 'cpi__twopass_frame__stats_in__raw_error_stdev', 'interintra_allowed', 'mbmi__interintra_wedge_index', 'mbmi__num_proj_ref', 'mbmi__overlappable_neighbors', 'mbmi__skip_txfm', 'mbmi__tx_size', 'rate2_nocoeff', 'rd_stats__dist', 'rd_stats__rate', 'rd_stats__rdcost', 'rd_stats__skip_txfm', 'rd_stats__sse', 'rd_stats_uv__dist', 'rd_stats_y__rate', 'rd_stats_y__rdcost', 'rd_stats_y__skip_txfm', 'rd_stats_y__zero_rate', 'x__cnt_zeromv', 'x__plane__0__quant_QTX', 'x__plane__0__round_fp_QTX', 'x__qindex', 'x__rb', 'xd__above_mbmi__compound_idx', 'xd__above_mbmi__num_proj_ref', 'xd__above_mbmi__overlappable_neighbors', 'xd__above_mbmi__skip_txfm', 'xd__above_mbmi__tx_size', 'xd__bd', 'xd__height', 'xd__left_available', 'xd__left_mbmi__compound_idx', 'xd__left_mbmi__num_proj_ref', 'xd__left_mbmi__overlappable_neighbors', 'xd__left_mbmi__skip_txfm', 'xd__left_mbmi__tx_size', 'xd__mi_stride', 'xd__tx_type_map_stride', 'xd__up_available']
+SEARCHING NUMBER OF FEATURES
+SELECTING 110 FEATURES
+The number of features selection steps (10) is greater than the number of features to eliminate (2). The number of steps was reduced to 2.
+FEATURES: ['args__ref_frame_cost', 'best_est_rd', 'cpi__common__current_frame__refresh_frame_flags', 'cpi__common__features__allow_high_precision_mv', 'cpi__common__frame_presentation_time', 'cpi__common__show_frame', 'cpi__framerate', 'cpi__gf_frame_index', 'cpi__ppi__internal_altref_allowed', 'cpi__ppi__p_rc__avg_q', 'cpi__ppi__p_rc__constrained_gf_group', 'cpi__ppi__p_rc__gfu_boost', 'cpi__ppi__p_rc__kf_boost', 'cpi__ppi__p_rc__num_regions', 'cpi__ppi__p_rc__rate_error_estimate', 'cpi__ppi__p_rc__rolling_target_bits', 'cpi__ppi__seq_params__num_bits_width', 'cpi__ppi__show_existing_alt_ref', 'cpi__ppi__tf_info__frame_diff__0__sum', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__mc_dep_dist', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__srcrf_dist', 'cpi__ppi__tpl_data__tpl_frame__tpl_stats_ptr__srcrf_sse', 'cpi__ppi__tpl_sb_rdmult_scaling_factors', 'cpi__ppi__twopass__firstpass_info__total_stats__log_intra_error', 'cpi__ppi__twopass__firstpass_info__total_stats__mv_in_out_count', 'cpi__ppi__twopass__firstpass_info__total_stats__mvr_abs', 'cpi__ppi__twopass__firstpass_info__total_stats__new_mv_count', 'cpi__ppi__twopass__last_kfgroup_zeromotion_pct', 'cpi__ppi__twopass__modified_error_max', 'cpi__ppi__twopass__rolling_arf_group_actual_bits', 'cpi__ppi__twopass__rolling_arf_group_target_bits', 'cpi__ref_frame_flags', 'cpi__tf_ctx__noise_levels__0', 'cpi__tf_ctx__noise_levels__1', 'cpi__tpl_rdmult_scaling_factors', 'cpi__twopass_frame__stats_in__MVc', 'cpi__twopass_frame__stats_in__MVr', 'cpi__twopass_frame__stats_in__cor_coeff', 'cpi__twopass_frame__stats_in__frame', 'cpi__twopass_frame__stats_in__intra_error', 'cpi__twopass_frame__stats_in__mv_in_out_count', 'cpi__twopass_frame__stats_in__mvc_abs', 'cpi__twopass_frame__stats_in__mvr_abs', 'cpi__twopass_frame__stats_in__noise_var', 'cpi__twopass_frame__stats_in__pcnt_neutral', 'cpi__twopass_frame__stats_in__raw_error_stdev', 'interintra_allowed', 'mbmi__interintra_wedge_index', 'mbmi__num_proj_ref', 'mbmi__overlappable_neighbors', 'mbmi__skip_txfm', 'mbmi__tx_size', 'rate2_nocoeff', 'rd_stats__dist', 'rd_stats__rate', 'rd_stats__rdcost', 'rd_stats__skip_txfm', 'rd_stats__sse', 'rd_stats_uv__dist', 'rd_stats_y__rate', 'rd_stats_y__rdcost', 'rd_stats_y__skip_txfm', 'rd_stats_y__zero_rate', 'x__cnt_zeromv', 'x__plane__0__quant_QTX', 'x__plane__0__round_fp_QTX', 'x__qindex', 'x__rb', 'xd__above_mbmi__compound_idx', 'xd__above_mbmi__num_proj_ref', 'xd__above_mbmi__overlappable_neighbors', 'xd__above_mbmi__skip_txfm', 'xd__above_mbmi__tx_size', 'xd__bd', 'xd__height', 'xd__left_available', 'xd__left_mbmi__compound_idx', 'xd__left_mbmi__num_proj_ref', 'xd__left_mbmi__overlappable_neighbors', 'xd__left_mbmi__skip_txfm', 'xd__left_mbmi__tx_size', 'xd__mi_stride', 'xd__tx_type_map_stride', 'xd__up_available', 'bsize', 'cpi__common__features__tx_mode', 'cpi__twopass_frame__fr_content_type', 'mbmi__bsize', 'mbmi__interintra_mode', 'mbmi__interp_filters__as_filters__x_filter', 'mbmi__interp_filters__as_filters__y_filter', 'mbmi__mode', 'mbmi__partition', 'update_type', 'xd__above_mbmi__bsize', 'xd__above_mbmi__interintra_mode', 'xd__above_mbmi__interp_filters__as_filters__x_filter', 'xd__above_mbmi__interp_filters__as_filters__y_filter', 'xd__above_mbmi__mode', 'xd__above_mbmi__motion_mode', 'xd__above_mbmi__partition', 'xd__above_mbmi__uv_mode', 'xd__left_mbmi__bsize', 'xd__left_mbmi__interintra_mode', 'xd__left_mbmi__interp_filters__as_filters__x_filter', 'xd__left_mbmi__interp_filters__as_filters__y_filter', 'xd__left_mbmi__mode', 'xd__left_mbmi__motion_mode', 'xd__left_mbmi__partition', 'xd__left_mbmi__uv_mode']
+CROSS VALIDATING
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+0:	learn: 0.8757494	test: 0.8742290	best: 0.8742290 (0)	total: 160ms	remaining: 15.8s
+99:	learn: 0.8763761	test: 0.8753112	best: 0.8753443 (2)	total: 8.27s	remaining: 0us
+
+bestTest = 0.8753443115
+bestIteration = 2
+
+Shrink model to first 3 iterations.
+{'learn': {'Recall': 0.9667804456210338, 'Logloss': 0.43788428871608065, 'F1': 0.8764527455314178, 'Precision': 0.8067926260466664}, 'validation': {'Recall': 0.9656433283117111, 'Logloss': 0.4388482294728551, 'F1': 0.8753443114766069, 'AUC': 0.9257766059336628, 'Precision': 0.8055901463498835}}
+                                            Feature Id  Importances
+0                                     rd_stats__rdcost    92.848536
+1                                 args__ref_frame_cost     4.783942
+2                                      mbmi__skip_txfm     1.220722
+3                                  rd_stats__skip_txfm     0.551707
+4                                     rd_stats_y__rate     0.206785
+..                                                 ...          ...
+105  xd__left_mbmi__interp_filters__as_filters__y_f...     0.000000
+106                                xd__left_mbmi__mode     0.000000
+107                         xd__left_mbmi__motion_mode     0.000000
+108                           xd__left_mbmi__partition     0.000000
+109                             xd__left_mbmi__uv_mode     0.000000
+
+[110 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.96      0.76      0.85    137272
+        True       0.80      0.96      0.88    136742
+
+    accuracy                           0.86    274014
+   macro avg       0.88      0.86      0.86    274014
+weighted avg       0.88      0.86      0.86    274014
+
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+0:	learn: 0.8753506	test: 0.8757986	best: 0.8757986 (0)	total: 162ms	remaining: 16s
+99:	learn: 0.8760905	test: 0.8764564	best: 0.8769009 (1)	total: 8.15s	remaining: 0us
+
+bestTest = 0.8769009146
+bestIteration = 1
+
+Shrink model to first 2 iterations.
+{'learn': {'Recall': 0.9664824386114702, 'Logloss': 0.43822435977968494, 'F1': 0.8764645956431164, 'Precision': 0.8064116150258461}, 'validation': {'Recall': 0.9668353541706279, 'Logloss': 0.43795078286521477, 'F1': 0.8769009145682166, 'AUC': 0.9260318381184273, 'Precision': 0.8070137587533287}}
+                                            Feature Id  Importances
+0                                     rd_stats__rdcost    92.935789
+1                                 args__ref_frame_cost     4.600374
+2                                      mbmi__skip_txfm     1.190499
+3                                  rd_stats__skip_txfm     0.819631
+4                                        rate2_nocoeff     0.236298
+..                                                 ...          ...
+105  xd__left_mbmi__interp_filters__as_filters__y_f...     0.000000
+106                                xd__left_mbmi__mode     0.000000
+107                         xd__left_mbmi__motion_mode     0.000000
+108                           xd__left_mbmi__partition     0.000000
+109                             xd__left_mbmi__uv_mode     0.000000
+
+[110 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.96      0.77      0.85    137272
+        True       0.80      0.96      0.88    136742
+
+    accuracy                           0.86    274014
+   macro avg       0.88      0.87      0.86    274014
+weighted avg       0.88      0.86      0.86    274014
+
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+0:	learn: 0.8754293	test: 0.8754903	best: 0.8754903 (0)	total: 174ms	remaining: 17.2s
+99:	learn: 0.8762276	test: 0.8758747	best: 0.8764392 (1)	total: 8.1s	remaining: 0us
+
+bestTest = 0.8764392267
+bestIteration = 1
+
+Shrink model to first 2 iterations.
+{'learn': {'Recall': 0.9664385602787737, 'Logloss': 0.4382308352558677, 'F1': 0.876580127882535, 'Precision': 0.806656865827123}, 'validation': {'Recall': 0.9670401193488467, 'Logloss': 0.43809789553149087, 'F1': 0.8764392267397028, 'AUC': 0.9266720283545142, 'Precision': 0.8060032975686583}}
+                                            Feature Id  Importances
+0                                     rd_stats__rdcost    93.067244
+1                                 args__ref_frame_cost     4.527341
+2                                      mbmi__skip_txfm     1.165251
+3                                  rd_stats__skip_txfm     0.782488
+4                                        rate2_nocoeff     0.244635
+..                                                 ...          ...
+105  xd__left_mbmi__interp_filters__as_filters__y_f...     0.000000
+106                                xd__left_mbmi__mode     0.000000
+107                         xd__left_mbmi__motion_mode     0.000000
+108                           xd__left_mbmi__partition     0.000000
+109                             xd__left_mbmi__uv_mode     0.000000
+
+[110 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.96      0.76      0.85    137272
+        True       0.80      0.96      0.88    136742
+
+    accuracy                           0.86    274014
+   macro avg       0.88      0.86      0.86    274014
+weighted avg       0.88      0.86      0.86    274014
+
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+0:	learn: 0.8760999	test: 0.8761184	best: 0.8761184 (0)	total: 152ms	remaining: 15.1s
+99:	learn: 0.8761468	test: 0.8761400	best: 0.8761400 (99)	total: 8.12s	remaining: 0us
+
+bestTest = 0.8761399612
+bestIteration = 99
+
+{'learn': {'Recall': 0.966590306179349, 'Logloss': 0.4380877213814177, 'F1': 0.8761545695973352, 'Precision': 0.8012011493207732}, 'validation': {'Recall': 0.9664038846879525, 'Logloss': 0.4383467919757275, 'F1': 0.8761399612139695, 'AUC': 0.925919157541482, 'Precision': 0.8013073559998302}}
+                                            Feature Id  Importances
+0                                     rd_stats__rdcost    88.833896
+1                                 args__ref_frame_cost     5.238587
+2                                     rd_stats_y__rate     1.174217
+3                                      mbmi__skip_txfm     0.981916
+4                                  rd_stats__skip_txfm     0.662784
+..                                                 ...          ...
+105  xd__left_mbmi__interp_filters__as_filters__y_f...     0.000000
+106                                xd__left_mbmi__mode     0.000000
+107                         xd__left_mbmi__motion_mode     0.000000
+108                           xd__left_mbmi__partition     0.000000
+109                             xd__left_mbmi__uv_mode     0.000000
+
+[110 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.96      0.76      0.85    137271
+        True       0.80      0.97      0.88    136742
+
+    accuracy                           0.86    274013
+   macro avg       0.88      0.86      0.86    274013
+weighted avg       0.88      0.86      0.86    274013
+
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+0:	learn: 0.8758920	test: 0.8769597	best: 0.8769597 (0)	total: 147ms	remaining: 14.5s
+99:	learn: 0.8759273	test: 0.8770025	best: 0.8770083 (95)	total: 8.01s	remaining: 0us
+
+bestTest = 0.8770082919
+bestIteration = 95
+
+Shrink model to first 96 iterations.
+{'learn': {'Recall': 0.9664824998903043, 'Logloss': 0.43839248317658663, 'F1': 0.8759301880508428, 'Precision': 0.800898725240362}, 'validation': {'Recall': 0.9668643640166446, 'Logloss': 0.43766975944626924, 'F1': 0.8770082918739636, 'AUC': 0.9265070123382722, 'Precision': 0.8024387135148915}}
+                                            Feature Id  Importances
+0                                     rd_stats__rdcost    88.821335
+1                                 args__ref_frame_cost     5.220075
+2                                     rd_stats_y__rate     1.243827
+3                                      mbmi__skip_txfm     0.986255
+4                                  rd_stats__skip_txfm     0.641744
+..                                                 ...          ...
+105  xd__left_mbmi__interp_filters__as_filters__y_f...     0.000000
+106                                xd__left_mbmi__mode     0.000000
+107                         xd__left_mbmi__motion_mode     0.000000
+108                           xd__left_mbmi__partition     0.000000
+109                             xd__left_mbmi__uv_mode     0.000000
+
+[110 rows x 2 columns]
+              precision    recall  f1-score   support
+
+       False       0.96      0.76      0.85    137272
+        True       0.80      0.97      0.88    136741
+
+    accuracy                           0.86    274013
+   macro avg       0.88      0.86      0.86    274013
+weighted avg       0.88      0.86      0.86    274013
+
+CV mean: 0.8764, CV std: 0.0006
+IMPORTANT FEATURES: {'mbmi__skip_txfm', 'args__ref_frame_cost', 'rd_stats_y__rate', 'rd_stats__rdcost'}
+TRAINING FIRST MODEL
+0:	learn: 0.8761036	test: 0.8717697	best: 0.8717697 (0)	total: 42ms	remaining: 4.16s
+99:	learn: 0.8761036	test: 0.8717697	best: 0.8717697 (0)	total: 3.9s	remaining: 0us
+
+bestTest = 0.871769737
+bestIteration = 0
+
+Shrink model to first 1 iterations.
+{'iterations': 100, 'learning_rate': 0.05, 'depth': 5, 'l2_leaf_reg': 15, 'loss_function': 'Logloss', 'leaf_estimation_iterations': 1, 'leaf_estimation_method': 'Gradient', 'random_seed': 42, 'verbose': 100, 'custom_metric': ['F1', 'Recall', 'Precision', 'AUC', 'Logloss'], 'eval_metric': 'F1', 'boosting_type': 'Plain', 'max_bin': 32, 'grow_policy': 'SymmetricTree', 'model_shrink_rate': 0.1, 'model_shrink_mode': 'Constant'}
+             Feature Id  Importances
+0      rd_stats__rdcost    95.457044
+1  args__ref_frame_cost     3.087326
+2       mbmi__skip_txfm     1.455630
+3      rd_stats_y__rate     0.000000
+              precision    recall  f1-score   support
+
+       False       0.96      0.75      0.84    204114
+        True       0.79      0.97      0.87    204195
+
+    accuracy                           0.86    408309
+   macro avg       0.88      0.86      0.86    408309
+weighted avg       0.88      0.86      0.86    408309
+
+DROPING UNUSED FEATURES
+IMPORTANT FEATURES: ['rd_stats__rdcost', 'args__ref_frame_cost', 'mbmi__skip_txfm']
+TRAINING FINAL MODEL
+0:	learn: 0.8761036	test: 0.8717697	best: 0.8717697 (0)	total: 35.7ms	remaining: 3.54s
+99:	learn: 0.8761036	test: 0.8717697	best: 0.8717697 (0)	total: 3.73s	remaining: 0us
+
+bestTest = 0.871769737
+bestIteration = 0
+
+Shrink model to first 1 iterations.
+MODEL TRAINED
+{'iterations': 100, 'learning_rate': 0.05, 'depth': 5, 'l2_leaf_reg': 15, 'loss_function': 'Logloss', 'leaf_estimation_iterations': 1, 'leaf_estimation_method': 'Gradient', 'random_seed': 42, 'verbose': 100, 'custom_metric': ['F1', 'Recall', 'Precision', 'AUC', 'Logloss'], 'eval_metric': 'F1', 'boosting_type': 'Plain', 'max_bin': 32, 'grow_policy': 'SymmetricTree', 'model_shrink_rate': 0.1, 'model_shrink_mode': 'Constant'}
+             Feature Id  Importances
+0      rd_stats__rdcost    93.402103
+1  args__ref_frame_cost     5.318867
+2       mbmi__skip_txfm     1.279030
+              precision    recall  f1-score   support
+
+       False       0.96      0.75      0.84    204114
+        True       0.79      0.97      0.87    204195
+
+    accuracy                           0.86    408309
+   macro avg       0.88      0.86      0.86    408309
+weighted avg       0.88      0.86      0.86    408309
+
+MODEL SAVED
